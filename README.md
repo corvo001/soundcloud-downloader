@@ -1,36 +1,36 @@
 # SoundCloud Playlist Downloader
 
-Herramienta sencilla para descargar **playlists completas de SoundCloud** en la mejor calidad de audio **real** disponible, sin reconversión innecesaria.
+A simple tool to download **full SoundCloud playlists** in the best available **real audio quality**, without unnecessary transcoding.
 
-Pensado para uso local, bibliotecas DJ y archivos limpios compatibles con software de mezcla.
+Designed for local use, DJ libraries, and clean audio archives compatible with mixing software.
 
 ---
 
-## Características
+## Features
 
-- Descarga playlists completas de SoundCloud
-- Prioridad de formatos **sin convertir**:
-  1. WAV real  
+- Download complete SoundCloud playlists
+- **No forced conversion** — real audio priority:
+  1. Real WAV  
   2. M4A (AAC)  
   3. MP3  
-  4. Mejor audio disponible
-- Mantiene metadatos y carátulas
-- Estructura automática por playlist
-- Scripts `.bat` para uso rápido en Windows
+  4. Best available audio
+- Preserves metadata and cover art
+- Automatic folder structure per playlist
+- `.bat` scripts for quick use on Windows
 
 ---
 
-## Requisitos
+## Requirements
 
 - Python 3.9+
 - `yt-dlp`
-- `ffmpeg` (opcional, recomendado)
+- `ffmpeg` (optional, recommended)
 
 ---
 
-## Instalación (Windows)
+## Installation (Windows)
 
-Ejecuta:
+Run:
 
 ```bat
 setup.bat
